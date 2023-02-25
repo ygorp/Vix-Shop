@@ -18,7 +18,6 @@
 
 body{
     background-color: var(--main-color);
-    color: var(--site-color);
 }
 
 .max-width {
@@ -421,4 +420,70 @@ footer span a:hover {
     .about .title {
         margin-top: 50px;
     }
+}
+
+/*FIM PÁGINA SOBRE A EMPRESA*/
+
+/*INICIO PÁGINA CONTATO*/
+
+.contact {
+    color: var(--site-color);
+    background-color: var(--main-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .title {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.contact .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .contact-content .column {
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .left p {
+    text-align: justify;
+}
+
+.contact .contact-content .left .icons {
+    margin: 10px 0;
+}
+
+.contact .contact-content .rows {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .contact-content .rows .info {
+    margin-left: 30px;
+}
+
+.contact .contact-content .rows i {
+    font-size: 25px;
+    color: var(--active-color);
+}
+
+.contact .contact-content .info .head {
+    font-weight: 500;
+}
+
+.contact .contact-content .info .sub-title {
+    color: var(--site-color);
+}
+
+.contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
